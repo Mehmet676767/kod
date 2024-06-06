@@ -28,7 +28,7 @@ from FIXXMUSIC.utils.formatters import convert_bytes
 from FIXXMUSIC.utils.inline.song import song_markup
 
 # Command
-SONG_COMMAND = ["song"]
+SONG_COMMAND = ["bul"]
 
 
 @app.on_message(
