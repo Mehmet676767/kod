@@ -109,7 +109,7 @@ async def start_pm(client, message: Message, _):
             )
 
 
-@app.on_message(filters.command(["start" , "vashustart"]) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(["meybaaa" , "vashustart"]) & filters.group & ~BANNED_USERS)
 @LanguageStart
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
