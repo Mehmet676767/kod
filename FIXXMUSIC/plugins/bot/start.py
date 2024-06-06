@@ -37,7 +37,7 @@ NEXI_VID = [
 
 
 
-@app.on_message(filters.command(["zubbii" , "geloss"]) & filters.private & ~BANNED_USERS)
+@app.on_message(filters.command(["start" , "geloss"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
