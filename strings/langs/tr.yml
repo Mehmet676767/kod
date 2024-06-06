@@ -1,4 +1,4 @@
-name : 🇹🇷 turkish
+name : 🇹🇷turkish
 
 
 
@@ -169,7 +169,7 @@ ping_2 : "🏓 Pong: <code>{0}milisaniye</code>\n\n<b><u>{1} Sistem İstatistikl
 kuyruk_1 : "» Ǫᴜᴇᴜᴇ aranıyor...\n\nLütfen bekleyin..."
 kuyruk_2 : "» Ǫᴜᴇᴜᴇ boş."
 kuyruk_3 : "<u>» Savaşçıların listesini kontrol etmek için lütfen buraya tıklayın:</u> <a href={0}>buraya</a>"
-kuyruk_4 : "➲ <b>{0} numaralı sıraya eklendi\n\n‣ Başlık :</b> {1}\n<b>‣ Aralık :</b> {2} dakika\n<b> ‣ Yalnızca mantıksız :</b> {3}”
+kuyruk_4 : "➲ <b>{0} numaralı sıraya eklendi\n\n‣ Başlık :</b> {1}\n<b>‣ Aralık :</b> {2} dakika\n<b> ‣ Yalnızca mantıksız :</b> {3}"
 kuyruk_5 : "Çalma listesinde sıraya alınmış yalnızca bir şarkı var.\n\nListeyi kontrol etmek için başka bir şarkı ekleyin."
 kuyruk_6 : "<b>🕚 Aralık :</b> Bilinmeyen Kategori Süresi\n\nTam kuyruk listesini bulmak için aşağıdaki düğmeyi tıklayın."
 kuyruk_7 : "\nTam kuyruk listesini bulmak için aşağıdaki düğmeye tıklayın."
