@@ -9,24 +9,24 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "9623f07eca023e4e3c561c966513a642"))
+API_HASH = getenv("API_HASH", "21194358")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","7123283070:AAH9kkVtrBbky4zkCXpwhgEP6suzr-_yerg")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","AdanaliMuhendis")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Kapalimmmm")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "AlemMuzikBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "sumeyyemusicbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "AlemMuzikBot")
+BOT_NAME = getenv("BOT_NAME" , "Sümeyye music")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "AdanaliMuhendis")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Kapalimmmm")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:nays@cluster0.vjg7bma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001891680771"))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002065943011)
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID", 6997506255))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AdanaliMuhendis/fixxx",
+    "https://github.com/DAXXTEAM/DAXXMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alemciyiz")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SohbetAlemi")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALLTYPECC")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DAXXSUPPORT")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAGi8fAAXASVAooSxGHqPO27TvGwVsWfGfxnCoNT1N6r6jA7T-Du2UPK4g5-ouYv0Wg8Vu8LN2itSo6m0z1Mb-HE-WuUYW3AwOf8CVpSnCwoPgm7g8TL_1q8KPpsqWlnPrhnDQaxmBr6HFdn9SqMfv_lCOrrVoibFUrQnItbFlpGlcKkjredZnfx9jQYCYxlWO730pkhyo0cMvxA4mB8VQv3rPSaZ9sDY1RdiuMOkPnCCbuncohnypW2aj_AU1DiZbQY8o_raA-grmhKFEDUidJtHjDdGqvISyxjDQhrahVX4cDlIbHI7-F90brRPfYpITyolQrQi8CkXJE0IQiBo3_B0nJ0AQAAAAGhFXjPAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -141,21 +141,21 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/Alem-Music-06-01"
+    "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/Alem-Music-06-01"
+    "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/Alem-Music-06-01"
-STATS_IMG_URL = "https://telegra.ph/Alem-Music-06-01"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/Alem-Music-06-01"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/Alem-Music-06-01"
-STREAM_IMG_URL = "https://telegra.ph/Alem-Music-06-01"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/Alem-Music-06-01"
-YOUTUBE_IMG_URL = "https://telegra.ph/Alem-Music-06-01"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/Alem-Music-06-01"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/Alem-Music-06-01"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/Alem-Music-06-01"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/48f39202823b358203234.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
