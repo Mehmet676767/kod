@@ -302,3 +302,6 @@ gban_6 : "<b><u>{0}:</u></b>\n\n<b>orijin:</b> {1} [<code>{2></b> üzerinde yeni
 gban_7 : "» {0} küresel olarak bottan yasaklanmadı."
 gban_8 : "Küresel yasaklama » {0}'dan kaldırılıyor.\n\n<b>Aday Saati:</b> {1}"
 gban_9 : "Küresel yasağın kaldırılması »{0}.\n\n{1} sohbetlere geri dönebilir."
+gban_10 : "» Hiç kimse global olarak bottan yasaklanmadı."
+gban_11 : "» Küresel olarak yasaklanan kullanıcıların listesi alınıyor..."
+gban_12 : "🙂 <b>Genel Yasaklanan Kullanıcılar:</b>\n\n"
