@@ -1,154 +1,159 @@
-HELP_1 = """<b><u>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :</b></u>
+HELP_1 = """<b><u>YÖNETİCİ KOMUTLARI:</b></u>
 
-ᴊᴜsᴛ ᴀᴅᴅ <b>ᴄ</b> ɪɴ ᴛʜᴇ sᴛᴀʀᴛɪɴɢ ᴏғ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜsᴇ ᴛʜᴇᴍ ғᴏʀ ᴄʜᴀɴɴᴇʟ.
+Sadece komutların başına <b>c</b> ekleyin ve bunları kanalda kullanın.
 
 
-/pause : ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
+/dur : Şu anda çalan yayını duraklatır.
 
-/resume : ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ.
+/devam : Duraklatılmış yayını devam ettirir.
 
-/skip : sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ.
+/atla : Şu anda çalan yayını atlar ve sıradaki parçayı çalmaya başlar.
 
-/end ᴏʀ /stop : ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
+/bitir veya /durdur : Sırayı temizler ve şu anda çalan yayını sonlandırır.
 
-/player : ɢᴇᴛ ᴀ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ᴩʟᴀʏᴇʀ ᴩᴀɴᴇʟ.
+/çalar : Etkileşimli bir çalar paneli alır.
 
-/queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/sıra : Sıradaki parçaların listesini gösterir.
+"""
 
 HELP_2 = """
-<b><u>ᴀᴜᴛʜ ᴜsᴇʀs :</b></u>
+<b><u>YETKİLİ KULLANICILAR:</b></u>
 
-ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ.
+Yetkili kullanıcılar, sohbet ortamında yönetici yetkisine sahip olmadan bot üzerinde yönetici yetkilerini kullanabilirler.
 
-/auth [ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ] : ᴀᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ ᴀᴜᴛʜ ʟɪsᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-/unauth [ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ] : ʀᴇᴍᴏᴠᴇ ᴀ ᴀᴜᴛʜ ᴜsᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ.
-/authusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴜᴛʜ ᴜsᴇʀs ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/izinli [kullanıcı adı/kullanıcı_ID] : Bir kullanıcıyı botun izinli listesine ekler.
+/izinli_degil [kullanıcı adı/kullanıcı_ID] : Bir kullanıcıyı izinli listesinden kaldırır.
+/izinliler : Grubun izinli kullanıcılarının listesini gösterir.
+"""
 
 HELP_3 = """
-<u><b>ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+<u><b>YAYIN YAPMA ÖZELLİĞİ</b></u> [SADECE SUDO YETKİLİLERİ İÇİN]:
 
-/broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] : ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+/broadcast [MESAJ veya BİR MESAJA CEVAP] : Botun sunucu sohbetlerine bir mesaj yayınlamasını sağlar.
 
-<u>ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴏᴅᴇs :</u>
-<b>-pin</b> : ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇs ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs.
-<b>-pinloud</b> : ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ sᴇɴᴅ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴛᴏ ᴛʜᴇ ᴍᴇᴍʙᴇʀs.
-<b>-user</b> : ʙʀᴏᴀᴅᴄᴀsᴛs ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.
-<b>-assistant</b> : ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ᴀssɪᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-<b>-nobot</b> : ғᴏʀᴄᴇs ᴛʜᴇ ʙᴏᴛ ᴛᴏ ɴᴏᴛ ʙʀᴏᴀᴅᴄᴀsᴛ ᴛʜᴇ ᴍᴇssᴀɢᴇ..
+<u>YAYIN MODLARI:</u>
+<b>-sabit</b> : Yayınladığınız mesajları sunucu sohbetlerinde sabitleyerek ön plana çıkarır.
+<b>-sabit_yüksek_ses</b> : Yayınladığınız mesajları sunucu sohbetlerinde sabitleyerek ön plana çıkarır ve üyelere bildirim gönderir.
+<b>-kullanıcı</b> : Botunuzu başlatan kullanıcılara mesajı yayınlar.
+<b>-asistan</b> : Mesajı botun asistan hesabından yayınlar.
+<b>-bot_yok</b> : Mesajın yayınlanmasını zorunlu hale getirir.
 
-<b>ᴇxᴀᴍᴩʟᴇ:</b> <code>/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ</code>
+<b>ÖRNEK:</b> <code>/broadcast -kullanıcı -asistan -sabit YAYIN TESTİ</code>
+"""
 
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+HELP_4 = """<u><b>SOHBET KARA LİSTESİ ÖZELLİĞİ</b></u> [YALNIZCA SUDO YETKİLİLERİ İÇİN]
 
-HELP_4 = """<u><b>ᴄʜᴀᴛ ʙʟᴀᴄᴋʟɪsᴛ ғᴇᴀᴛᴜʀᴇ :</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
+Kıymetli botumuzu kullanarak çöp sohbetlerin kullanımını kısıtlayın.
 
-ʀᴇsᴛʀɪᴄᴛ sʜɪᴛ ᴄʜᴀᴛs ᴛᴏ ᴜsᴇ ᴏᴜʀ ᴘʀᴇᴄɪᴏᴜs ʙᴏᴛ.
+/blacklistchat [sohbet kimliği] : Bot kullanarak sohbeti kara listeye alın.
+/whitelistchat [sohbet kimliği] : Kara listeye alınmış sohbeti beyaz listeye alın.
+/blacklistedchat : Kara listeye alınmış sohbetlerin listesini gösterir.
 
-/blacklistchat [ᴄʜᴀᴛ ɪᴅ] : ʙʟᴀᴄᴋʟɪsᴛ ᴀ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-/whitelistchat [ᴄʜᴀᴛ ɪᴅ] : ᴡʜɪᴛᴇʟɪsᴛ ᴛʜᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ.
-/blacklistedchat : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+"""
 
 HELP_5 = """
-<u><b>ʙʟᴏᴄᴋ ᴜsᴇʀs:</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
+<u><b>KULLANICI ENGELLEME:</b></u> [YALNIZCA SUDO YETKİLİLERİ İÇİN]
 
-sᴛᴀʀᴛs ɪɢɴᴏʀɪɴɢ ᴛʜᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴜsᴇʀ, sᴏ ᴛʜᴀᴛ ʜᴇ ᴄᴀɴ'ᴛ ᴜsᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs.
+Kara listelenen kullanıcıları engellemeye başlar, böylece bot komutlarını kullanamazlar.
 
-/block [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ʙʟᴏᴄᴋ ᴛʜᴇ ᴜsᴇʀ ғʀᴏᴍ ᴏᴜʀ ʙᴏᴛ.
-/unblock [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ᴜɴʙʟᴏᴄᴋs ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀ.
-/blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/block [kullanıcı adı veya bir kullanıcıya cevap] : Kullanıcıyı botumuzdan engeller.
+/unblock [kullanıcı adı veya bir kullanıcıya cevap] : Engellenen kullanıcıların engelini kaldırır.
+/blockedusers : Engellenen kullanıcıların listesini gösterir.
+
+"""
 
 HELP_6 = """
-<u><b>ᴄʜᴀɴɴᴇʟ ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs:</b></u>
+<u><b>KANAL OYNATMA KOMUTLARI:</b></u>
 
-ʏᴏᴜ ᴄᴀɴ sᴛʀᴇᴀᴍ ᴀᴜᴅɪᴏ/ᴠɪᴅᴇᴏ ɪɴ ᴄʜᴀɴɴᴇʟ.
+Kanalda ses/video yayını yapabilirsiniz.
 
-/cplay : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴀᴜᴅɪᴏ ᴛʀᴀᴄᴋ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠɪᴅᴇᴏᴄʜᴀᴛ.
-/cvplay : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠɪᴅᴇᴏᴄʜᴀᴛ.
-/cplayforce or /cvplayforce : sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
+/cplay : Kanalın video sohbetinde istenen ses izlemini başlatır.
+/cvplay : Kanalın video sohbetinde istenen video izlemini başlatır.
+/cplayforce veya /cvplayforce : Devam eden yayını durdurur ve istenen izlemeyi başlatır.
 
-/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/channelplay [sohbet kullanıcı adı veya kimliği] veya [devre dışı] : Kanalı bir gruba bağlar ve grup tarafından gönderilen komutlarla izleme yapmaya başlar.
+
+"""
 
 HELP_7 = """
-<u><b>ɢʟᴏʙᴀʟ ʙᴀɴ ғᴇᴀᴛᴜʀᴇ</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+<u><b>GLOBAL BAN ÖZELLİĞİ</b></u> [YALNIZCA SUDO YETKİLİLERİ İÇİN]:
 
-/gban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ɢʟᴏʙᴀʟʟʏ ʙᴀɴs ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ ғʀᴏᴍ ᴀʟʟ ᴛʜᴇ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ ʙʟᴀᴄᴋʟɪsᴛ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-/ungban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ɢʟᴏʙᴀʟʟʏ ᴜɴʙᴀɴs ᴛʜᴇ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀ.
-/gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀs.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/gban [kullanıcı adı veya bir kullanıcıya cevap] : Kullanıcıyı tüm sunucu sohbetlerinden global olarak yasaklar ve bot kullanımını kara listeler.
+/ungban [kullanıcı adı veya bir kullanıcıya cevap] : Global olarak yasaklanan kullanıcının yasağını kaldırır.
+/gbannedusers : Global olarak yasaklanan kullanıcıların listesini gösterir.
+
+"""
 
 HELP_8 = """
-<b><u>ʟᴏᴏᴘ sᴛʀᴇᴀᴍ :</b></u>
+<b><u>LOOP STREAM:</b></u>
 
-<b>sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ɪɴ ʟᴏᴏᴘ</b>
+<b>Oynatılan yayını döngüye alır.</b>
 
-/loop [enable/disable] : ᴇɴᴀʙʟᴇs/ᴅɪsᴀʙʟᴇs ʟᴏᴏᴘ ғᴏʀ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ
-/loop [1, 2, 3, ...] : ᴇɴᴀʙʟᴇs ᴛʜᴇ ʟᴏᴏᴘ ғᴏʀ ᴛʜᴇ ɢɪᴠᴇɴ ᴠᴀʟᴜᴇ.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/loop [etkinleştir/devre dışı] : Yayını döngüye alır veya döngüyü kaldırır.
+/loop [1, 2, 3, ...] : Belirtilen değeri döngüye alır.
+
+"""
 
 HELP_9 = """
-<u><b>ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+<u><b>BAKIM MODU</b></u> [YALNIZCA SUDO YETKİLİLERİ İÇİN]:
 
-/logs : ɢᴇᴛ ʟᴏɢs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+/logs : Botun günlüklerini alır.
 
-/logger [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : ʙᴏᴛ ᴡɪʟʟ sᴛᴀʀᴛ ʟᴏɢɢɪɴɢ ᴛʜᴇ ᴀᴄᴛɪᴠɪᴛɪᴇs ʜᴀᴩᴩᴇɴ ᴏɴ ʙᴏᴛ.
+/logger [etkinleştir/devre dışı] : Botun etkinliklerini günlüğe kaydetmeye başlar.
+/maintenance [etkinleştir/devre dışı] : Botun bakım modunu etkinleştirir veya devre dışı bırakır.
 
-/maintenance [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴏғ ʏᴏᴜʀ ʙᴏᴛ.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+"""
 
 HELP_10 = """
-<b><u>ᴘɪɴɢ & sᴛᴀᴛs :</b></u>
+<b><u>PİNG & STATS:</b></u>
 
-/start : sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
-/help : ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
+/start : Müzik botunu başlatır.
+/help : Komutları açıklamalı yardım menüsü alır.
 
-/ping : sʜᴏᴡs ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+/ping : Botun ping'ini ve sistem istatistiklerini gösterir.
 
-/stats : sʜᴏᴡs ᴛʜᴇ ᴏᴠᴇʀᴀʟʟ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/stats : Botun genel istatistiklerini gösterir.
+
+"""
 
 HELP_11 = """
-<u><b>ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs :</b></u>
+<u><b>OYNATMA KOMUTLARI:</b></u>
 
-<b>v :</b> sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴩʟᴀʏ.
-<b>force :</b> sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴩʟᴀʏ.
+<v> : Video oynatma anlamına gelir.
+<force> : Zorla oynatma anlamına gelir.
 
-/play ᴏʀ /vplay : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+/oynat veya /voynat : İstenilen ses izlemesini video sohbetinde başlatır.
+/playforce veya /vplayforce : Devam eden yayını durdurur ve istenen izlemeyi başlatır.
 
-/playforce ᴏʀ /vplayforce : sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+"""
 
 HELP_12 = """
-<b><u>sʜᴜғғʟᴇ ᴏ̨ᴜᴇᴜᴇ :</b></u>
+<b><u>KARIŞTIRMA KUYRUSU:</b></u>
 
-/shuffle : sʜᴜғғʟᴇ's ᴛʜᴇ ᴏ̨ᴜᴇᴜᴇ.
-/queue : sʜᴏᴡs ᴛʜᴇ sʜᴜғғʟᴇᴅ ᴏ̨ᴜᴇᴜᴇ.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/karistir : Kuyruğu karıştırır.
+/sira : Karıştırılmış kuyruğu gösterir.
+
+"""
 
 HELP_13 = """
-<b><u>sᴇᴇᴋ sᴛʀᴇᴀᴍ :</b></u>
+<b><u>YAYINI İLERİ SARMAYA İLİŞKİN KOMUTLAR:</b></u>
 
-/seek [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
-/seekback [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/ilerisar [saniye cinsinden süre] : Yayını belirtilen süreye sarmak için.
+/gerisar [saniye cinsinden süre] : Yayını belirtilen süre kadar geri sarar.
+
+"""
 
 HELP_14 = """
-<b><u>sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ</b></u>
+<b><u>ŞARKI İNDİRME</b></u>
 
-/song [sᴏɴɢ ɴᴀᴍᴇ/ʏᴛ ᴜʀʟ] : ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴛʀᴀᴄᴋ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ ᴍᴘ3 ᴏʀ ᴍᴘ4 ғᴏʀᴍᴀᴛs.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/indir [şarkı adı/yt URL] : YouTube'dan herhangi bir şarkıyı MP3 veya MP4 formatında indirir.
+"""
 
 HELP_15 = """
-<b><u>sᴘᴇᴇᴅ ᴄᴏᴍᴍᴀɴᴅs :</b></u>
+<b><u>HIZ KOMUTLARI :</b></u>
 
-ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛʀᴏʟ ᴛʜᴇ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ᴏғ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ. [ᴀᴅᴍɪɴs ᴏɴʟʏ]
+Oynatma hızını kontrol edebilirsiniz. [Yalnızca yöneticiler]
 
-/speed or /playback : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ɢʀᴏᴜᴘ.
-/cspeed or /cplayback : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ᴄʜᴀɴɴᴇʟ.
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/speed veya /playback : Ses oynatma hızını grup içinde ayarlar.
+/cspeed veya /cplayback : Ses oynatma hızını kanalda ayarlar.
+"""
