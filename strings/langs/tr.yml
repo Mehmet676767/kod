@@ -249,7 +249,6 @@ Block_5 : "» Blok kullanıcısı bulunamadı."
 Block_6 : "» Blok kullanıcı listesi alınıyor..."
 Block_7 : "<b>😫 kullanıcıyı engelle :</b>\n\n"
 
-black_1 : "<b>Örnek:</b>\n\n/blacklistchat
 black_1 : "<b>Örnek:</b>\n\n/blacklistchat [sohbet kimliği]"
 black_2 : "» Bu sohbet zaten kara listede."
 black_3 : "» Sohbetler başarıyla kara listeye eklendi."
