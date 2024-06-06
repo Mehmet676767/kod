@@ -5,4 +5,4 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-https://dashboard.heroku.com/new?template=https://github.com/AdanaliMuhendis/fixxx
+https://dashboard.heroku.com/new?template=https://github.com/Mehmet676767/kod
